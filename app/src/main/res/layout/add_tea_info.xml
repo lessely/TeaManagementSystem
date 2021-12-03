@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/manager"
+    tools:context=".Activitiy.add_staff_info">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="120dp">
+
+            <TextView
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="茶叶信息增加"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="0dp">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="茶叶名称："
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editTeaname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginTop="10dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:inputType="number"
+                android:text="茶叶编号："
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editTeanum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginTop="10dp" />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="茶叶库存："
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editTeatock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="0dp">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="茶叶价格："
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/editTeaprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                style="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:text="确    定"/>
+
+
+
+        </LinearLayout>
+
+
+    </TableLayout>
+
+</RelativeLayout>

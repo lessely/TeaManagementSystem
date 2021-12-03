@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/register"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/register_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="请输入注册码(默认8888)" />
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:hint="请输入姓名" />
+
+        <EditText
+            android:id="@+id/register_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="请输入账号" />
+
+        <EditText
+            android:id="@+id/register_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:hint="请输入密码" />
+
+        <EditText
+            android:id="@+id/register_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:hint="请确认密码" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/student"
+    tools:context=".Activitiy.Staff_login">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:text="员 工 登 录"
+                android:layout_gravity="left|center"
+                android:textSize="40dp"
+                android:layout_column="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+
+                android:text="工号："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/num"
+                android:inputType="number"
+                android:layout_marginTop="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="密码："
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:ems="10"
+                android:id="@+id/pwd"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp" />
+
+        </TableRow>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Login"
+                style="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:layout_column="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:text="登  录"/>
+        </LinearLayout>
+
+    </TableLayout>
+
+</RelativeLayout>
